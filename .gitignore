@@ -1,1 +1,57 @@
-*.tmp
+# Temporary files
+*~
+#*#
+
+# Bash history and configuration
+.bash_history
+.bash_profile
+.bashrc*
+.bash_logout
+
+# Editor backups
+*.bak
+
+# Cache and local configuration
+.cache/
+.lesshst
+.ipython/
+
+# SSH Configuration
+.ssh/
+
+# Python specific
+__pycache__/
+*.pyc
+.python_history
+
+# Virtual environment
+env/
+venv/
+.venv/
+bin/
+lib/
+include/
+
+# OS generated files
+.DS_Store
+
+# Compiled Files
+/dist/
+
+# Editor directories
+.vscode/
+.idea/
+
+# Temporary build directories
+/tmp/
+
+# Specific project directories (add if not part of your source code)
+#
+#
+
+# Log files
+*.log
+
+# Personal text files
+
+
