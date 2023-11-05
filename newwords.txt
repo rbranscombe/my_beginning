@@ -1,0 +1,16 @@
+  echo grep -E '^[^grp][^rp][^irp][^rp]e$' words | grep '\(*ing)\e$' words |wc -l
+  127  echo grep -E '^[^grp][^rp][^irp][^rp]e$' words | grep '\([*inge]\)\(.*\1\)
+  128  grep -E '^[^grp][^ngrp][^grpig][^inrp]e$' words | wc -l
+  129  grep -E '^[^grp][^ngrp][^grpig][^inrp]e$' words
+  130  grep -E '^[^grp][^aeoungrp][^grpig][^inrp]e$' words
+  131  cat words |tr'[[:upper:]]' | grep -E '^[^grp][^aeoungrp][^grpig][^inrp]e$' words
+  132  cat words |tr'[[:upper:]]' '[:lower:]'|grep i| less | grep -E '^[^grp][^aeoungrp][^grpig][^inrp]e$' words
+  133  cat words |tr'[[:upper:]]' '[:lower:]'|grep i| less | grep -E '^[^grp][^aeoungrp][^grpig][^inrp]e$' words | wc -l
+  134  cat words |tr'[[:upper:]]' '[:lower:]'|grep i| less | grep -E '^[^-grp][^aeoungrp][^grpig][^inrp]e$' words | wc -l
+  135  cat words |tr'[[:upper:]]' '[:lower:]'|grep i| less | grep -E '^[^-grp][^aeoungrp][^grpig][^inrp]e$' words
+  136  grep -E '^[^-grp][^aeoungrp][^grpig][^inrp]e$' words
+  137  grep -E '^[^-grp][^aeoungrp][^grpig][^inrp]e$' words | wc -l
+  138  grep -E '^[^-grp][^aeoungrp][^grpig][^inrp]e$' words | wc -lhr
+  139  grep -E '^[^-grp][^aeoungrp][^grpig][^inrp]e$' words | wc --help
+  140  grep -E '^[^-grp][^aeoungrp][^grpig][^inrp]e$' words | less --help
+  141  grep -E '^[^-grp][^aeoungrp][^grpig][^inrp]e$' words | less words.txt

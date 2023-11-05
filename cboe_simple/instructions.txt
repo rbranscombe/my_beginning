@@ -1,0 +1,6 @@
+sread data1 and data2 files
+print values from both files where there are matching keys
+
+$ ./code
+1:9,10,11
+10:5,-1,14

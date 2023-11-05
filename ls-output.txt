@@ -1,0 +1,7 @@
+total 20
+-rw-r--r--. 1 ruth ruth   46 May 10 00:54 lazy_dog.txt
+-rw-r--r--. 1 ruth ruth   56 May 10 00:11 ls-error.txt
+-rw-r--r--. 1 ruth ruth    0 May 13 17:01 ls-output.txt
+-rw-r--r--. 1 ruth ruth 5601 May 10 20:37 ls.txt
+drwxr-xr-x. 1 ruth ruth 1008 May 10 21:06 photos
+-rw-r--r--. 1 ruth ruth  329 May 11 02:07 two_words.txt

@@ -1,0 +1,1422 @@
+Script started on 2022-05-13 17:14:18+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="189" LINES="50"]
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ le[Ks -a
+[?2004l[0m[01;34m.[0m  [01;34m..[0m  .bash_history  .bash_logout  .bash_profile  .bashrc  lazy_dog.txt  .lesshst  ls-error.txt  ls-output.txt  ls.txt  [01;34mphotos[0m  .python_history  session_script  two_words.txt
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ file session_script
+[?2004lsession_script: empty
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ id
+[?2004luid=1001(ruth) gid=1001(ruth) groups=1001(ruth) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ gi[K[Kfile e[K/etc/shadow
+[?2004l/etc/shadow: regular file, no read permission
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ less /etc/shadow
+[?2004l/etc/shadow: Permission denied
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ id
+[?2004luid=1001(ruth) gid=1001(ruth) groups=1001(ruth) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ less/ etc[K[K[K[K[K /etc/passwd
+[?2004l[?1049h[22;0;0t[?1h=root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/usr/sbin/nologin
+systemd-oom:x:999:999:systemd Userspace OOM Killer:/:/usr/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/usr/sbin/nologin
+systemd-timesync:x:998:998:systemd Time Synchronization:/:/usr/sbin/nologin
+systemd-coredump:x:997:997:systemd Core Dumper:/:/usr/sbin/nologin
+tss:x:59:59:Account used for TPM access:/dev/null:/sbin/nologin
+unbound:x:996:995:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/usr/share/empty.sshd:/sbin/nologin
+chrony:x:995:994::/var/lib/chrony:/sbin/nologin
+fedora:x:1000:1000:fedora Cloud User:/home/fedora:/bin/bash
+ruth:x:1001:1001::/home/ruth:/bin/bash
+caden:x:1002:1002::/home/caden:/bin/bash
+mjb:x:1003:1003::/home/mjb:/bin/bash
+[7m/etc/passwd (END)[27m[K[K[?1l>[?1049l[23;0;0t]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ pwd
+[?2004l/home/ruth
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ /etc/pwd
+[?2004lbash: /etc/pwd: No such file or directory
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ /etc/pwd[5Ppwdless /etc/passwd
+[?2004l[?1049h[22;0;0t[?1h=root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/usr/sbin/nologin
+systemd-oom:x:999:999:systemd Userspace OOM Killer:/:/usr/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/usr/sbin/nologin
+systemd-timesync:x:998:998:systemd Time Synchronization:/:/usr/sbin/nologin
+systemd-coredump:x:997:997:systemd Core Dumper:/:/usr/sbin/nologin
+tss:x:59:59:Account used for TPM access:/dev/null:/sbin/nologin
+unbound:x:996:995:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/usr/share/empty.sshd:/sbin/nologin
+chrony:x:995:994::/var/lib/chrony:/sbin/nologin
+fedora:x:1000:1000:fedora Cloud User:/home/fedora:/bin/bash
+ruth:x:1001:1001::/home/ruth:/bin/bash
+caden:x:1002:1002::/home/caden:/bin/bash
+mjb:x:1003:1003::/home/mjb:/bin/bash
+[7m/etc/passwd (END)[27m[K[K[?1l>[?1049l[23;0;0t]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ 
+[?2004l]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ ls -a /bin
+[?2004l [0m[01;34m.[0m                    [01;32mecho[0m                    [01;32mgrub2-mkrescue[0m       [01;36mlz[0m                   [01;32mp11-kit[0m              [01;32msetpriv[0m                          [01;32mtr[0m
+ [01;34m..[0m                   [01;32megrep[0m                   [01;32mgrub2-mkstandalone[0m   [01;32mmakedeltarpm[0m         [37;41mpasswd[0m               [01;32msetsid[0m                           [01;32mtracepath[0m
+[01;32m'['[0m                   [01;32meject[0m                   [01;32mgrub2-mount[0m          [01;36mman[0m                  [01;32mpaste[0m                [01;32msetterm[0m                          [01;32mtroff[0m
+ [01;32malias[0m                [01;36memacs[0m                   [01;32mgrub2-render-label[0m   [01;32mmandb[0m                [01;32mpathchk[0m              [01;32msetvtrgb[0m                         [01;32mtrue[0m
+ [01;32mamuFormat.sh[0m         [01;32memacs-27.2-nox[0m          [01;32mgrub2-script-check[0m   [01;32mman.man-db[0m           [01;32mpeekfd[0m               [01;32msftp[0m                             [01;32mtruncate[0m
+ [01;32mapplydeltarpm[0m        emacs-27.2-nox.pdmp     [01;32mgrub2-syslinux2cfg[0m   [01;32mmanpath[0m              [01;32mpgrep[0m                [01;36msg[0m                               [01;32mtrust[0m
+ [01;36mapropos[0m              [01;32memacsclient[0m             [01;32mgsettings[0m            [01;32mman-recode[0m           [01;32mpic[0m                  [01;36msh[0m                               [01;32mtset[0m
+ [01;36mapropos.man-db[0m       [01;36memacs-nox[0m               [01;36mgsoelim[0m              [01;32mmapscrn[0m              [01;32mpidof[0m                [01;32msha1hmac[0m                         [01;32mtsort[0m
+ [01;32march[0m                 [01;32menchant-2[0m               [01;36mgtar[0m                 [01;36mmattrib[0m              [01;32mpidwait[0m              [01;32msha1sum[0m                          [01;32mtty[0m
+ [30;41marping[0m               [01;32menchant-lsmod-2[0m         [01;36mgtbl[0m                 [01;36mmbadblocks[0m           [01;32mpigz[0m                 [01;32msha224hmac[0m                       [01;32mtype[0m
+ [01;32maserver[0m              [01;32menv[0m                     [01;36mgtroff[0m               [01;36mmcat[0m                 [01;32mpinentry[0m             [01;32msha224sum[0m                        [01;32mtzselect[0m
+ [01;32maulast[0m               [01;32menvsubst[0m                [01;32mgunzip[0m               [01;36mmcd[0m                  [01;32mpinentry-curses[0m      [01;32msha256hmac[0m                       [01;32muclampset[0m
+ [01;32maulastlog[0m            [01;32meqn[0m                     [01;32mgzexe[0m                [01;32mmcheck[0m               [01;32mping[0m                 [01;32msha256sum[0m                        [01;32mudevadm[0m
+ [01;32mausyscall[0m            [01;36metags[0m                   [01;32mgzip[0m                 [01;36mmclasserase[0m          [01;32mpinky[0m                [01;32msha384hmac[0m                       [01;32mul[0m
+ [01;32mauvirt[0m               [01;32metags.emacs[0m             [01;32mhardlink[0m             [01;32mmcomp[0m                [01;32mpkgconf[0m              [01;32msha384sum[0m                        [01;32mulimit[0m
+ [01;36mawk[0m                  [01;32mevmctl[0m                  [01;32mhash[0m                 [01;32mmcookie[0m              [01;32mpkg-config[0m           [01;32msha512hmac[0m                       [01;32mumask[0m
+ [01;32mb2sum[0m                [01;36mex[0m                      [01;32mhead[0m                 [01;36mmcopy[0m                [01;32mpkill[0m                [01;32msha512sum[0m                        [37;41mumount[0m
+ [01;32mbase32[0m               [01;32mexpand[0m                  [01;32mhexdump[0m              [01;32mmd5sum[0m               [01;32mpldd[0m                 [01;32mshowconsolefont[0m                  [01;32munalias[0m
+ [01;32mbase64[0m               [01;32mexpr[0m                    [01;32mhomectl[0m              [01;36mmdel[0m                 [01;32mpmap[0m                 [01;32mshowkey[0m                          [01;32muname[0m
+ [01;32mbasename[0m             [01;32mfactor[0m                  [01;32mhostid[0m               [01;36mmdeltree[0m             [01;32mportablectl[0m          [01;32mshred[0m                            [01;36muname26[0m
+ [01;32mbasenc[0m               [01;32mfallocate[0m               [01;32mhostname[0m             [01;36mmdir[0m                 [01;32mpost-grohtml[0m         [01;32mshuf[0m                             [01;32munexpand[0m
+ [01;32mbash[0m                 [01;32mfalse[0m                   [01;32mhostnamectl[0m          [01;36mmdu[0m                  [01;32mpr[0m                   [01;32mskill[0m                            [01;32municode_start[0m
+ [01;36mbashbug[0m              [01;32mfc[0m                      [01;32mhunspell[0m             [01;32mmemdiskfind[0m          [01;32mpreconv[0m              [01;32mslabtop[0m                          [01;32municode_stop[0m
+ [01;32mbashbug-64[0m           [01;32mfg[0m                      [01;36mi386[0m                 [01;32mmemstrack[0m            [01;32mpre-grohtml[0m          [01;32msleep[0m                            [01;32muniq[0m
+ [01;32mbg[0m                   [01;32mfgconsole[0m               [01;32miconv[0m                [01;32mmesg[0m                 [01;32mprintenv[0m             [01;32msnice[0m                            [01;32munlink[0m
+ [01;32mbootctl[0m              [01;32mfgrep[0m                   [01;32mid[0m                   [01;36mmformat[0m              [01;32mprintf[0m               [01;36msoelim[0m                           [01;32munpigz[0m
+ [01;32mbusctl[0m               [01;32mfile[0m                    [01;32minfocmp[0m              [01;36mminfo[0m                [01;32mprlimit[0m              [01;32msoelim.groff[0m                     [01;32munshare[0m
+ [01;32mcal[0m                  [01;32mfincore[0m                 [01;36minfotocap[0m            [01;36mminiterm-3.10.py[0m     [01;32mprtstat[0m              [01;32msort[0m                             [01;36munxz[0m
+ [01;32mca-legacy[0m            [01;32mfind[0m                    [01;32minstall[0m              [01;32mminiterm-3.py[0m        [01;32mps[0m                   [01;32msotruss[0m                          [01;32mupdate-ca-trust[0m
+ [01;36mcaptoinfo[0m            [01;32mfindmnt[0m                 [01;32mionice[0m               [01;36mminiterm.py[0m          [01;36mpsfaddtable[0m          [01;32msplit[0m                            [01;32mupdate-crypto-policies[0m
+ [01;32mcat[0m                  [01;32mfips-finish-install[0m     [01;32mipcalc[0m               [01;32mmkdir[0m                [01;36mpsfgettable[0m          [01;32msprof[0m                            [01;32muptime[0m
+ [01;32mcatchsegv[0m            [01;32mfips-mode-setup[0m         [01;32mipcmk[0m                [01;32mmkfifo[0m               [01;36mpsfstriptable[0m        [01;32mssh[0m                              [01;32muserdbctl[0m
+ [01;32mcatman[0m               [01;32mflock[0m                   [01;32mipcrm[0m                [01;32mmkmanifest[0m           [01;32mpsfxtable[0m            [01;32mssh-add[0m                          [01;32musers[0m
+ [01;32mcd[0m                   [01;32mfmt[0m                     [01;32mipcs[0m                 [01;32mmknod[0m                [01;32mpslog[0m                [01;32mssh-agent[0m                        [01;32musleep[0m
+ [01;32mchacl[0m                [01;32mfold[0m                    [01;32mirqtop[0m               [01;32mmkpasswd[0m             [01;32mpstree[0m               [01;32mssh-copy-id[0m                      [01;32mutmpdump[0m
+ [37;41mchage[0m                [01;32mfree[0m                    [01;32misohybrid[0m            [01;32mmktemp[0m               [01;36mpstree.x11[0m           [01;32mssh-keygen[0m                       [01;32muuidgen[0m
+ [01;32mchattr[0m               [01;32mfuse2fs[0m                 [01;32misosize[0m              [01;36mmlabel[0m               [01;32mptx[0m                  [01;32mssh-keyscan[0m                      [01;32muuidparse[0m
+ [01;32mchcon[0m                [01;32mg13[0m                     [01;32mjobs[0m                 [01;36mmmd[0m                  [01;32mpwd[0m                  [01;32msss_ssh_authorizedkeys[0m           [01;32muz[0m
+ [01;32mcheckmodule[0m          [01;32mgapplication[0m            [01;32mjoin[0m                 [01;32mmmdblookup[0m           [01;32mpwdx[0m                 [01;32msss_ssh_knownhostsproxy[0m          [01;32mvdir[0m
+ [01;32mcheckpolicy[0m          [01;32mgawk[0m                    [01;32mjournalctl[0m           [01;36mmmount[0m               [01;32mpwmake[0m               [01;32mstat[0m                             [01;32mvi[0m
+ [01;32mchgrp[0m                [01;32mgctags[0m                  [01;36mjsondiff[0m             [01;36mmmove[0m                [01;32mpwscore[0m              [01;32mstdbuf[0m                           [01;32mview[0m
+ [01;32mchmem[0m                [01;32mgdbus[0m                   [01;36mjsondiff-3[0m           [01;32mmodulemd-validator[0m   [01;36mpydoc[0m                [01;32mstty[0m                             [01;32mvlock[0m
+ [01;32mchmod[0m                [01;32mgencat[0m                  [01;32mjsondiff-3.10[0m        [01;32mmokutil[0m              [01;36mpydoc3[0m               [37;41msu[0m                               [01;32mvmstat[0m
+ [01;32mchoom[0m                [01;36mgeqn[0m                    [01;36mjsonpatch[0m            [01;32mmore[0m                 [01;32mpydoc3.10[0m            [37;41msudo[0m                             [01;32mw[0m
+ [01;32mchown[0m                [01;32mgetconf[0m                 [01;36mjsonpatch-3[0m          [37;41mmount[0m                [01;36mpython[0m               [01;36msudoedit[0m                         [01;32mwait[0m
+ [01;32mchronyc[0m              [01;32mgetent[0m                  [01;32mjsonpatch-3.10[0m       [01;32mmountpoint[0m           [01;36mpython3[0m              [01;32msudoreplay[0m                       [01;32mwall[0m
+ [01;32mchrt[0m                 [01;32mgetfacl[0m                 [01;36mjsonpointer[0m          [01;36mmpartition[0m           [01;32mpython3.10[0m           [01;32msum[0m                              [01;32mwatch[0m
+ [01;32mchvt[0m                 [01;32mgethostip[0m               [01;36mjsonpointer-3[0m        [01;36mmrd[0m                  [01;32mqemu-ga[0m              [01;32msync[0m                             [01;32mwatchgnupg[0m
+ [01;32mcksum[0m                [01;32mgetkeycodes[0m             [01;32mjsonpointer-3.10[0m     [01;36mmren[0m                 [01;32mread[0m                 [01;32msyslinux[0m                         [01;32mwc[0m
+ [01;32mclear[0m                [01;32mgetopt[0m                  [01;32mjsonschema[0m           [01;32mmsgattrib[0m            [01;32mreadlink[0m             [01;32msystemctl[0m                        [01;32mwdctl[0m
+ [30;41mclockdiff[0m            [01;32mgetopts[0m                 [01;32mkbdinfo[0m              [01;32mmsgcat[0m               [01;32mrealpath[0m             [01;32msystemd-analyze[0m                  [01;36mwhatis[0m
+ [01;32mcloud-id[0m             [01;32mgettext[0m                 [01;32mkbd_mode[0m             [01;32mmsgcmp[0m               [01;32mrecode-sr-latin[0m      [01;32msystemd-ask-password[0m             [01;32mwhatis.man-db[0m
+ [01;32mcloud-init[0m           [01;32mgettext.sh[0m              [01;32mkbdrate[0m              [01;32mmsgcomm[0m              [01;32mrename[0m               [01;32msystemd-cat[0m                      [01;32mwhereis[0m
+ [01;32mcloud-init-per[0m       [01;32mgio[0m                     [01;32mkbxutil[0m              [01;32mmsgconv[0m              [01;32mrenice[0m               [01;32msystemd-cgls[0m                     [01;32mwhich[0m
+ [01;32mcmp[0m                  [01;32mgio-querymodules-64[0m     [01;32mkernel-install[0m       [01;32mmsgen[0m                [01;36mreset[0m                [01;32msystemd-cgtop[0m                    [01;32mwho[0m
+ [01;32mcol[0m                  [01;32mglib-compile-schemas[0m    [01;32mkill[0m                 [01;32mmsgexec[0m              [01;32mresizecons[0m           [01;32msystemd-cryptenroll[0m              [01;32mwhoami[0m
+ [01;32mcolcrt[0m               [01;36mgneqn[0m                   [01;32mkillall[0m              [01;32mmsgfilter[0m            [01;32mresolvectl[0m           [01;32msystemd-delta[0m                    [30;43mwrite[0m
+ [01;32mcolrm[0m                [01;36mgnroff[0m                  [01;32mkmod[0m                 [01;32mmsgfmt[0m               [01;32mrev[0m                  [01;32msystemd-detect-virt[0m              [01;36mx86_64[0m
+ [01;32mcolumn[0m               [37;41mgpasswd[0m                 [01;32mlast[0m                 [01;32mmsggrep[0m              [01;32mrm[0m                   [01;32msystemd-dissect[0m                  [01;32mx86_64-redhat-linux-gnu-pkg-config[0m
+ [01;32mcombinedeltarpm[0m      [01;32mgpg[0m                     [01;36mlastb[0m                [01;32mmsginit[0m              [01;32mrmdir[0m                [01;32msystemd-escape[0m                   [01;32mxargs[0m
+ [01;32mcomm[0m                 [01;36mgpg2[0m                    [01;32mlastlog[0m              [01;32mmsgmerge[0m             [01;32mrpm[0m                  [01;32msystemd-firstboot[0m                [01;32mxgettext[0m
+ [01;32mcommand[0m              [01;32mgpg-agent[0m               [01;32mlchfn[0m                [01;32mmsgunfmt[0m             [01;32mrpm2archive[0m          [01;32msystemd-hwdb[0m                     [01;32mxmlcatalog[0m
+ [01;32mcoredumpctl[0m          [01;32mgpg-card[0m                [01;32mlchsh[0m                [01;32mmsguniq[0m              [01;32mrpm2cpio[0m             [01;32msystemd-id128[0m                    [01;32mxmllint[0m
+ [01;32mcp[0m                   [01;32mgpgconf[0m                 [01;32mldd[0m                  [01;36mmshortname[0m           [01;32mrpmdb[0m                [01;32msystemd-inhibit[0m                  [01;32mxmlwf[0m
+ [01;32mcpio[0m                 [01;32mgpg-connect-agent[0m       [01;32mless[0m                 [01;36mmshowfat[0m             [01;32mrpmdumpheader[0m        [01;32msystemd-machine-id-setup[0m         [01;32mxz[0m
+ [01;32mcsplit[0m               [01;32mgpg-error[0m               [01;32mlessecho[0m             [01;32mmtools[0m               [01;32mrpmkeys[0m              [01;32msystemd-mount[0m                    [01;36mxzcat[0m
+ [01;32mcurl[0m                 [01;32mgpgme-json[0m              [01;32mlesskey[0m              [01;36mmtoolstest[0m           [01;36mrpmquery[0m             [01;32msystemd-notify[0m                   [01;36mxzcmp[0m
+ [01;32mcut[0m                  [01;32mgpgparsemail[0m            [01;32mlesspipe.sh[0m          [01;36mmtype[0m                [01;36mrpmverify[0m            [01;32msystemd-path[0m                     [01;32mxzdec[0m
+ [01;32mcvtsudoers[0m           [01;32mgpgsm[0m                   [01;32mlexgrog[0m              [01;32mmv[0m                   [01;32mrsync[0m                [01;32msystemd-repart[0m                   [01;32mxzdiff[0m
+ [01;32mcyrusbdb2current[0m     [01;32mgpgsplit[0m                [01;32mlink[0m                 [01;32mmxtar[0m                [01;32mrsync-ssl[0m            [01;36msystemd-resolve[0m                  [01;36mxzegrep[0m
+ [01;32mdate[0m                 [01;32mgpgtar[0m                  [01;36mlinux32[0m              [01;36mmzip[0m                 [01;32mruncon[0m               [01;32msystemd-run[0m                      [01;36mxzfgrep[0m
+ [01;32mdbus-broker[0m          [01;32mgpgv[0m                    [01;36mlinux64[0m              [01;32mnamei[0m                [01;36mrvi[0m                  [01;32msystemd-socket-activate[0m          [01;32mxzgrep[0m
+ [01;32mdbus-broker-launch[0m   [01;36mgpgv2[0m                   [01;32mlinux-boot-prober[0m    [01;32mndptool[0m              [01;36mrview[0m                [01;32msystemd-stdio-bridge[0m             [01;32mxzless[0m
+ [01;32mdd[0m                   [01;32mgpg-wks-client[0m          [01;32mln[0m                   [01;32mneqn[0m                 [01;32mscp[0m                  [01;32msystemd-sysext[0m                   [01;32mxzmore[0m
+ [01;32mdeallocvt[0m            [01;32mgpg-wks-server[0m          [01;32mloadkeys[0m             [01;32mnetstat[0m              [01;32mscript[0m               [01;32msystemd-sysusers[0m                 [01;32myes[0m
+ [01;32mdebuginfod-find[0m      [01;36mgpic[0m                    [01;32mloadunimap[0m           [01;32mnetworkctl[0m           [01;32mscriptlive[0m           [01;32msystemd-tmpfiles[0m                 [01;36mypdomainname[0m
+ [01;32mdf[0m                   [01;32mgr2fonttest[0m             [01;32mlocale[0m               [30;41mnewgidmap[0m            [01;32mscriptreplay[0m         [01;32msystemd-tty-ask-password-agent[0m   [01;36myum[0m
+ [01;32mdiff[0m                 [01;32mgrep[0m                    [01;32mlocalectl[0m            [37;41mnewgrp[0m               [01;32msdiff[0m                [01;36msystemd-umount[0m                   [01;32mzcat[0m
+ [01;32mdiff3[0m                [01;32mgroff[0m                   [01;32mlocaledef[0m            [30;41mnewuidmap[0m            [01;32msecon[0m                [01;32mtabs[0m                             [01;32mzcmp[0m
+ [01;32mdir[0m                  [01;32mgrops[0m                   [01;32mlogger[0m               [01;32mngettext[0m             [01;32msecret-tool[0m          [01;32mtac[0m                              [01;32mzdiff[0m
+ [01;32mdircolors[0m            [01;32mgrotty[0m                  [01;32mlogin[0m                [01;32mnice[0m                 [01;32msed[0m                  [01;32mtail[0m                             [01;32mzdump[0m
+ [01;32mdirmngr[0m              [01;32mgroups[0m                  [01;32mloginctl[0m             [01;36mnisdomainname[0m        [01;32msedismod[0m             [01;32mtar[0m                              [01;32mzegrep[0m
+ [01;32mdirmngr-client[0m       [01;32mgrowpart[0m                [01;32mlogname[0m              [01;32mnl[0m                   [01;32msedispol[0m             [01;32mtaskset[0m                          [01;32mzfgrep[0m
+ [01;32mdirname[0m              [01;32mgrub2-editenv[0m           [01;32mlook[0m                 [01;32mnmcli[0m                [01;32msemodule_expand[0m      [01;32mtbl[0m                              [01;32mzforce[0m
+ [01;32mdistro[0m               [01;32mgrub2-file[0m              [01;32mls[0m                   [01;32mnm-online[0m            [01;32msemodule_link[0m        [01;32mtee[0m                              [01;32mzgrep[0m
+ [01;32mdmesg[0m                [01;32mgrub2-fstest[0m            [01;32mlsattr[0m               [01;32mnohup[0m                [01;32msemodule_package[0m     [01;32mtest[0m                             [01;32mzless[0m
+ [01;36mdnf[0m                  [01;32mgrub2-glue-efi[0m          [01;32mlsblk[0m                [01;32mnormalizer[0m           [01;32msemodule_unpackage[0m   [01;32mtgz[0m                              [01;32mzmore[0m
+ [01;32mdnf-3[0m                [01;32mgrub2-kbdcomp[0m           [01;32mlscpu[0m                [01;32mnproc[0m                [01;32mseq[0m                  [01;32mtic[0m                              [01;32mznew[0m
+ [01;36mdnsdomainname[0m        [01;32mgrub2-menulst2cfg[0m       [01;32mlsinitrd[0m             [01;32mnroff[0m                [01;32msestatus[0m             [01;32mtimedatectl[0m                      [01;36mzsoelim[0m
+ [01;36mdomainname[0m           [01;32mgrub2-mkfont[0m            [01;32mlsipc[0m                [01;32mnsenter[0m              [01;32msetarch[0m              [01;32mtimeout[0m
+ [30;43mdotlockfile[0m          [01;32mgrub2-mkimage[0m           [01;32mlsirq[0m                [01;32mnumfmt[0m               [01;32msetfacl[0m              [01;32mtload[0m
+ [01;32mdracut[0m               [01;32mgrub2-mklayout[0m          [01;32mlslocks[0m              [01;32mod[0m                   [01;32msetfont[0m              [01;32mtoe[0m
+ [01;32mdu[0m                   [01;32mgrub2-mknetdir[0m          [01;32mlslogins[0m             [01;32moomctl[0m               [01;32msetkeycodes[0m          [01;32mtop[0m
+ [01;32mdumpkeys[0m             [01;32mgrub2-mkpasswd-pbkdf2[0m   [01;32mlsmem[0m                [01;32mopenvt[0m               [01;32msetleds[0m              [01;32mtouch[0m
+ [01;32mebrowse[0m              [01;32mgrub2-mkrelpath[0m         [01;32mlsns[0m                 [01;32mos-prober[0m            [01;32msetmetamode[0m          [01;32mtput[0m
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ type bash
+[?2004lbash is /usr/bin/bash
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ less bash
+[?2004lbash: No such file or directory
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ less /usr/bin/bash
+[?2004l"/usr/bin/bash" may be a binary file.  See it anyway? 
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ cd
+[?2004l]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ cd ..[K[K[K[K[Kls -a
+[?2004l[0m[01;34m.[0m  [01;34m..[0m  .bash_history  .bash_logout  .bash_profile  .bashrc  lazy_dog.txt  .lesshst  ls-error.txt  ls-output.txt  ls.txt  [01;34mphotos[0m  .python_history  session_script  two_words.txt
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ file etc/group
+[?2004letc/group: cannot open `etc/group' (No such file or directory)
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ etc/shadow
+[?2004lbash: etc/shadow: No such file or directory
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ history
+[?2004l    4  cd ..
+    5  ls
+    6  cd ..
+    7  ls
+    8  cd usr
+    9  ls
+   10  cd share
+   11  ls
+   12  file file
+   13  cd file
+   14  ls
+   15  ls -a
+   16  file magin
+   17  file magi
+   18  file magic
+   19  cd ..
+   20  file sounds
+   21  ls -a
+   22  file xsessions
+   23  cd xsessions
+   24  ls
+   25  ls -a
+   26  cd ..
+   27  ls
+   28  cd bin
+   29  ls
+   30  cd ..
+   31  ls -a
+   32  cd etc
+   33  ls -a
+   34  file fedora-release
+   35  file idmapd.conf
+   36  less idmapd.conf
+   37  cd
+   38  kir
+   39  ls
+   40  ls -a
+   41  cd ..
+   42  ls -a
+   43  cd ruth
+   44  ls
+   45  ls -a
+   46  cd usr
+   47  ls -a
+   48  cd ..
+   49  ls -a
+   50  pwd
+   51  cd bin
+   52  ls
+   53  ls -a
+   54  cd ..
+   55  ls
+   56  cd usr
+   57  ls -a
+   58  pwd
+   59  cd bin
+   60  ls
+   61  cd -
+   62  ls -a
+   63  cd etc
+   64  cd local
+   65  pwd
+   66  ls -a
+   67  cd share
+   68  pwd
+   69  ls -a
+   70  cd applications
+   71  ls -a
+   72  cd -
+   73  cd etc
+   74  pwd
+   75  cd ..
+   76  ls -a
+   77  cd etc
+   78  ls a
+   79  ls -a
+   80  cd ..
+   81  pwd
+   82  cd ..
+   83  pwd
+   84  ls
+   85  cd ..
+   86  ls
+   87  pwd
+   88  cd usr
+   89  ls
+   90  pwd
+   91  cd share
+   92  pwd
+   93  ls
+   94  ls -a
+   95  file fontconfig
+   96  cd fontconfig
+   97  ls
+   98  file conf.avail
+   99  cd conf.avail
+  100  pwd
+  101  ls -a
+  102  cd -
+  103  pwd
+  104  cd ..
+  105  ls -a
+  106  cd ..
+  107  pwd
+  108  ls -a
+  109  cd etc
+  110  cd share
+  111  pwd
+  112  ls
+  113  cd etc
+  114  cd help
+  115  pwd
+  116  ls a
+  117  ls -a
+  118  cd -
+  119  cd ..
+  120  ls
+  121  cd etc
+  122  pwd
+  123  ls
+  124  cd
+  125  pwd
+  126  cd /etc
+  127  ls
+  128  cd
+  129  pwd
+  130  mkdir playground
+  131  ls
+  132  cd playground
+  133  mkdir dir1 dir2
+  134  ls
+  135  cd
+  136  pwd
+  137  ls
+  138  cd ..
+  139  ls
+  140  cd ruth
+  141  ls a
+  142  ls -a
+  143  cd /usr
+  144  pwd
+  145  ls
+  146  cd etc
+  147  cd shared
+  148  cd share
+  149  ls
+  150  cd etc
+  151  cd usr
+  152  ls
+  153  pwd
+  154  cd ..
+  155  ls
+  156  cd local
+  157  ls
+  158  cd etc
+  159  sl
+  160  ls
+  161  ls -a
+  162  cd ..
+  163  cd share
+  164  ls
+  165  cd info
+  166  ls
+  167  ls -a
+  168  cd ..
+  169  pwd
+  170  ls
+  171  cd share
+  172  ls
+  173  cd info
+  174  ls
+  175  pwd
+  176  cd ..
+  177  ls
+  178  cd ..
+  179  ls
+  180  cd lib
+  181  ls
+  182  ls -a
+  183  cd ..
+  184  ls
+  185  cd bin
+  186  ls
+  187  cd ..
+  188  ls
+  189  pwd
+  190  cd ..
+  191  ls
+  192  cd bin
+  193  ls
+  194  cd ..
+  195  ls
+  196  cd share
+  197  ls
+  198  cd gnome
+  199  ls
+  200  ls -a
+  201  cd ..
+  202  pwd
+  203  cd 
+  204  pwd
+  205  cd /etc
+  206  pwd
+  207  ls
+  208  file passwd
+  209  less passwd
+  210  pwd
+  211  cd
+  212  ls
+  213  cd playground
+  214  ls
+  215  cp /etc/passwd .
+  216  ls -l
+  217  cp -v /etc/passwd .
+  218  ls -l
+  219  cd dir1
+  220  ls
+  221  ls-a
+  222  ls -a
+  223  cd -
+  224  ls -a
+  225  file passwd
+  226  less passwd
+  227  cp -iv /etc/passwd .
+  228  mv -i passwd fun
+  229  ls
+  230  mv fun dir1
+  231  ls
+  232  cd dir1
+  233  ls
+  234  cd -
+  235  mv dir1/fun dir2
+  236  mv dir2/fun
+  237  mv dir2/ fun .
+  238  cd dir 2
+  239  cd dir2
+  240  ls
+  241  cd-
+  242  cd ..
+  243  mv dir2/fun .
+  244  ls
+  245  mv fun dir1
+  246  mv dir1 dir2
+  247  ls -l dir2
+  248  ls -l dir2/dir1
+  249  mv dir2/dir1
+  250  ls
+  251  mv dir2/dir1 .
+  252  ls
+  253  mv dir1/fun .
+  254  ls
+  255  exit
+  256  ls -a
+  257  file .bashlogin
+  258  pwd
+  259  $echo PATH
+  260  which-
+  261  ls -a
+  262  less .bath_history
+  263  file .bath_history
+  264  less .bash_history
+  265  cd playground
+  266  echo $PATH
+  267  echo $PATH which
+  268  $which ls
+  269  which echo $PATH
+  270  ls -l etc
+  271   cd ..
+  272  ls -a
+  273  cd
+  274  ls
+  275  cd ..
+  276  ls
+  277  cd ruth
+  278  ls -a
+  279  cd /user/bin
+  280  cd /usr
+  281  ls
+  282  cd bin
+  283  ls -a
+  284  cd
+  285  cd ..
+  286  ls
+  287  cd ruth
+  288  cd usr
+  289  cd /usr
+  290  ls
+  291  cd local
+  292  cd
+  293  cd /usr/local
+  294  ls
+  295  cd etc
+  296  ls
+  297  ls -a
+  298  cd ..
+  299  cd share
+  300  ls -a
+  301  cd ..
+  302  ls
+  303  cd etc
+  304  ls -a
+  305  cd ..
+  306  ls
+  307  cd ls
+  308  cd ..
+  309  ls
+  310  cd bin
+  311  ls -a
+  312  cd ..
+  313  ls
+  314  cd sbin
+  315  ls
+  316  cd
+  317  ls
+  318  cd /usr
+  319  ls
+  320  cd sbin
+  321  ls
+  322  cd ..
+  323  ls
+  324  cd sbin
+  325  ls -a
+  326  cd ..
+  327  ls
+  328  cd ..
+  329  ls
+  330  cd etc
+  331  ls -a
+  332  echo $PATH
+  333  PWD
+  334  pwd
+  335  ls -l /etc
+  336  cd ..
+  337  pwd
+  338  cd /usr/etc
+  339  cd /usr/bin/etc
+  340  cd /usr
+  341  ls -a
+  342  cd bin
+  343  ls -a
+  344  cd ..
+  345  ls -a
+  346  cd ..
+  347  ls -a
+  348  cd etc
+  349  ls -a
+  350  ls -l /etc
+  351  -rw-r--r--. 1 root root       16 Oct 26  2021 adjtime 
+  352  which ls
+  353  cd /usr/bin
+  354  ls - l
+  355  ls
+  356  -bash: -rw-r--r--.: command not found
+  357  [ruth@ruth etc]$ which ls
+  358  alias ls='ls --color=auto'
+  359          /usr/bin/ls
+  360  [ruth@ruth etc]$ cd /usr/bin
+  361  [ruth@ruth bin]$ ls - l
+  362  ls: cannot access '-': No such file or directory
+  363  ls: cannot access 'l': No such file or directory
+  364  [ruth@ruth bin]$ ls
+  365  [200~[ruth@ruth bin]$ ^C
+  366  which ls
+  367  echo $PATH
+  368  which ls
+  369  cd
+  370  ls -l
+  371  ls -a
+  372  file .bash_history
+  373  less .bash_history
+  374  file .bash_profile
+  375  less .bash_profile
+  376  echo $PATH
+  377  LS
+  378  ls
+  379  cd playground
+  380  echo $PATH
+  381  echo $(pwd)/passwd
+  382  cd
+  383  echo $(pwd)/psswd
+  384  ls
+  385  cd ..
+  386  ls
+  387  ls - a
+  388  ls -a
+  389  cd ruth
+  390  ls -a
+  391  file .bashrc
+  392  less .bashrc
+  393  file .lesshst
+  394  less .lesshst
+  395  echo $PATH
+  396  history
+  397  /usr/bin
+  398  ls
+  399  ls -a
+  400  cd /etc
+  401  ls
+  402  cd
+  403  cd usr/bin
+  404  cd /usr/bin
+  405  ls
+  406  cd usr/bincd
+  407  cd
+  408  pwd
+  409  mk[tab]
+  410  cd /usr/bin
+  411  ls
+  412  file bash
+  413  less bash
+  414  cd /etc
+  415  ls
+  416  file bash-completion.d
+  417  cd bash-completion.d
+  418  file bash_completion.d
+  419  cd bash_completion.d
+  420  ls
+  421  ls -a
+  422  echo $PATH
+  423  pwd
+  424  ls
+  425  cd
+  426  ls
+  427  ls -a
+  428  cd .bashrc
+  429  bashrc
+  430  .bashrc
+  431  less .bashrc
+  432  exit
+  433  ls -a
+  434  less .bash_history
+  435  pwd
+  436  which $PATH
+  437  history
+  438  cntrl + r
+  439  ctrl + r
+  440  ctrl +r
+  441  ctrl +R
+  442  ctrl + R
+  443  pwd
+  444  cd bin
+  445  cd ..
+  446  ls
+  447  cd /usr
+  448  ls
+  449  cd ..
+  450  ls
+  451  history
+  452  file bash
+  453  pwd
+  454  ls -a
+  455  cd playground
+  456  ls
+  457  file fun
+  458  less fun
+  459  pwd
+  460  cd
+  461  pwd
+  462  mkdir dir1
+  463  ls -a
+  464  rm dir1
+  465  ls
+  466  rm dir1
+  467  rm -ir dir1
+  468  ls
+  469  ls -a
+  470  pwd
+  471  cd playground
+  472  ls
+  473  ls -l
+  474  cp -iv /etc/passwd .
+  475  cp -i /etc/passwd .
+  476  ls -l
+  477  mv -i passwd fun
+  478  ls -l
+  479  ln fun fun-hard
+  480  ln fun dir1/fun-hard
+  481  ln fun dir2/fun-hard
+  482  ls -l
+  483  cd dir1
+  484  ls -l
+  485  ls -li
+  486  cd ..
+  487  ls -li
+  488  exit
+  489  ls
+  490  cd rm -r playground
+  491  rm -r playground
+  492  ls
+  493  mkdir playground
+  494  ls
+  495  cd playground
+  496  mkdir dir1 dir2
+  497  ls
+  498  cp /etc/passwrd .
+  499  /usr/bin
+  500  cd /usr/bin
+  501  ls
+  502  cd ..
+  503  ls
+  504  cd ..
+  505  ls
+  506  etc
+  507  cd etc
+  508  ls
+  509  pwd
+  510  file passwd
+  511  less passwd
+  512  cp passwd home/ruth/playground
+  513  cp passwd /home/ruth/playground
+  514  cd /home/ruth/playground
+  515  ls
+  516  ls -l
+  517  cp -v /etc/passwd .
+  518  y
+  519  cp -i /etc/passwd .
+  520  mv passwrd fun
+  521  ls
+  522  mv passwd fun
+  523  ls
+  524  mv fun dir1
+  525  ls
+  526  cd dir
+  527  cd dir1
+  528  ls
+  529  mv fun cd ..
+  530  cd ..
+  531  ls
+  532  cd dir1
+  533  ls
+  534  cd ..
+  535  mv fun dir1
+  536  ls
+  537  mv dir1/fun dir2
+  538  ls
+  539  cd dir2
+  540  ls
+  541  cd ..
+  542  mv dir2/fun .
+  543  ls
+  544  mv fun dir1
+  545  ls
+  546  mov dir1 dir2
+  547  mv dir1 dir2
+  548  ls -l dir2
+  549  ls -l dir2/dir1
+  550  mv dir2/dir1 .
+  551  mv dir1/fun .
+  552  ls l
+  553  ls -l
+  554  cd dir1
+  555  ls
+  556  ls -l
+  557  cd ..
+  558  ls
+  559  ls -l
+  560  ln -s fun fun-hard
+  561  ln fun dir1/fun-hard
+  562  ln fun dir2/fun-hard
+  563  ls -l
+  564  ls -li
+  565  ln -s fun fun-sym
+  566  ln -s ../fun dir1/fun-sym
+  567  ln -s ../fun dir2/fun-sym
+  568  ls -l dir1
+  569  ls -s dir1 dir1-sym
+  570  ls -l
+  571  ln -s dir1 dir1-sym
+  572  ls -l
+  573  rm -v fun-hard
+  574  ls -l
+  575  rm -i fun
+  576  ls -l
+  577  less fu-sym
+  578  rm -v fun-sym dir1-sym
+  579  ls -l
+  580  cd
+  581  ls
+  582  rm -r playground
+  583  ls
+  584  ls -a
+  585  mkdir playground
+  586  ls
+  587  mkdir /playground/dir1 /playground/dir2
+  588  cd playground
+  589  ls
+  590  mkdir dir1 dir2
+  591  ls
+  592  cp /etc/passwd .
+  593  ls
+  594  cp /etc/pass* .
+  595  ls
+  596  file passwd-
+  597  cp /etc/*wd .
+  598  ls
+  599  cp -vi /etc/*d .
+  600  ls -l
+  601  file machine-id
+  602  mv passwd- fun
+  603  ls -l
+  604  mv motd swing
+  605  ls -l
+  606  mv machine-id slide
+  607  mv subgid kid
+  608  ls -l
+  609  mv subuid Flower29
+  610  ls -l
+  611  mov passwd slipper
+  612  ls -l
+  613  mv passwd slipper
+  614  ls -l
+  615  ln fun fun-hard
+  616  ln -li
+  617  ls -li
+  618  ln *[!:29:] *[:29:]-hard
+  619  ls -l
+  620  ln -v *[!:digit:] *[:digit:]-hard
+  621  ln -v *[!:digit:] *[!:digit:]-hard
+  622  ln -v *[!:digit:]] *[!:digit:]]-hard
+  623  ln -v *29 *29-hard
+  624  ls -l
+  625  mv -v 29-hard Flower29-hard
+  626  mv -v *29-hard Flower29-hard
+  627  ls -l
+  628  ln -s Flower29 Flower29-soft
+  629  ls -l
+  630  ln -s ../Flower29 dir1/Flower29-sym
+  631  ln -s ../Flower29 dir2/Flower29-sym
+  632  mv Flower29-soft Flower29-sym
+  633  ls -l
+  634  ls -l dir1
+  635  ls -li
+  636  cd
+  637  ls -ri playground
+  638  rm -ri playground
+  639  ls -l
+  640  ls
+  641  ls -a
+  642  type type
+  643  type ls
+  644  type cp
+  645  which ls
+  646  which cd
+  647  man ls
+  648  man 5 passwd
+  649  apropos partition
+  650  man -k
+  651  partition
+  652  man -k partition
+  653  whatis ls
+  654  man bash
+  655  info coreutils
+  656  cd /usr; ls; cd -
+  657  type test
+  658  type foo
+  659  alsi foo='çd /usr; ls -l; cd -
+  660  cd
+  661  cd /home/ruth
+  662  exit
+  663  alias foo =çd /usr; ls -l; cd -
+  664  cd /usr; ls; cd -
+  665  alias foo='cd /usr; ls; cd-
+  666  çd-
+  667  ls
+  668  foo type
+  669  quit
+  670  exit
+  671  help
+  672  .cd
+  673  ls -l
+  674  alias foo=çd /usr; ls; cd -
+  675  foo
+  676  alias foo="cd /usr; ls; cd -
+  677  "foo
+  678  foo
+  679  type foo
+  680  unalias foo
+  681  type foo
+  682  type ls
+  683  alias
+  684  whatis cd
+  685  apropos cd
+  686  man cd
+  687  man ln
+  688  mn mkdir
+  689  man mkdir
+  690  type ls
+  691  man ls
+  692  whatis ls
+  693  whatis mkdir
+  694  whatis cd
+  695  man bash
+  696  help type
+  697  exit
+  698  ls -l /usr/bin > ls-output.txt
+  699  cd /usr/bin
+  700  ls
+  701  file ls-out.txt
+  702  cd
+  703  ls
+  704  ls -l ls-output.txt
+  705  less -l ls-output.txt
+  706  less ls-output.txt
+  707  ls -l /bin/usr > ls-output.txt
+  708  ls -l ls-output.txt
+  709  pwdd
+  710  pwd
+  711  ls
+  712  ls -a
+  713  ls -l /usr/bin >> ls-output.txt
+  714  ls -lv /usr/bin >> ls-output.txt
+  715  ls -vl /usr/bin >> ls-output.txt
+  716  ls -l /usr/bin >> ls-output.txt
+  717  ls -l ls-output.txt
+  718  ls-output.txt
+  719  ls -l ls-output.txt
+  720  > ls-output.txt
+  721  ls -l ls-output.txt
+  722  ls -l /usr/bin >> ls-output.txt
+  723  ls -l ls-output.txt
+  724  exit
+  725  ls -l /bin/usr 2> ls-output.txt
+  726  ls -l
+  727  ls -l /bin/usr 2> ls-error.txt
+  728  ls -l
+  729  ls -l /usr/bin >> ls-output.txt
+  730  ls -l
+  731  ls -l /usr/bin > ls-output.txt 2>&1
+  732  ls -l
+  733  less output.txt
+  734  less ls-output.txt
+  735  ls-output.txt 2>1
+  736  ls -l
+  737  ls-output.txt 2>&1
+  738  >ls-output.txt 2>&1
+  739  ls -l
+  740  ls
+  741  rm 1
+  742  ls
+  743  ls -l
+  744  2>&1 >ls-output.txt
+  745  ls -l
+  746  ls -l /binusr &> ls-output.txt
+  747  ls -l
+  748  ls -l /bin/usr &> ls-output.txt
+  749  ls -l
+  750  ls -l /bin/usr &>> ls-output.txt
+  751  ls -l
+  752  ls -l /bin/usr 2> /dev/null
+  753  cat ls-output.txt
+  754  file ls-output.txt
+  755  less ls-output.txt
+  756  cat
+  757  cat > lazy_dog.txt
+  758  ls -l
+  759  less lazy_dog
+  760  ls
+  761  file lazy_dog.txt
+  762  less lazy_dog.txt
+  763  cat lazy_dog.txt
+  764  less lazy_dog.txt
+  765  cat >lazy_dog.txt
+  766  ls -l
+  767  less lazy_dog.txt
+  768  cat lazy_dog.txt
+  769  cat < lazy_dog.txt
+  770  man cat
+  771  exit
+  772  echo this is a test
+  773  echo *
+  774  echo *?
+  775  cd
+  776  ls -l
+  777  echo *.txt
+  778  ls
+  779  echo *g
+  780  echo *g*
+  781  echo [[:upper:]]*
+  782  man
+  783  upper man
+  784  bash man
+  785  ls -@
+  786  bash man
+  787  man bash
+  788  whatis echo [:upper:]*
+  789  echo [[:upper:]]*
+  790  echo ls -l /usr/bin | less
+  791  ls -l /usr/bin | less
+  792  ls /bin /bin/usr | sort | less
+  793  cd ..
+  794  ls -l
+  795  cd ruth
+  796  ls
+  797  ls -a
+  798  cd /bin
+  799  ls
+  800  cd
+  801  ls /bin /usr/bin | sort | less
+  802  man cat
+  803  ls /bin /usr/bin | sort | uniq | less
+  804  ls /bin /usr/bin | sort | uniq -d | less
+  805  man uniq
+  806  wc ls-output.txt
+  807  ls /bin /usr/bin | sort | uniq | wc -l
+  808  q
+  809  ls /bin /usr/bin | sort | uniq | grep zip
+  810  ls /bin /usr/bin | sort | uniq | grep -i zip
+  811  ls /bin /usr/bin | sort | uniq | grep -v zip
+  812  man grep
+  813  type grep
+  814  type wc
+  815  man 1
+  816  man shell
+  817  man man
+  818  man1
+  819  man 1
+  820  man 2
+  821  man cmd
+  822  man man
+  823  man (1)
+  824  man '1
+  825  q
+  826  ~q
+  827  exit
+  828  pwd
+  829  head -n 5 ls-output.txt
+  830  ls -l
+  831  less ls-output.txt
+  832  ls
+  833  file ls-output.txt
+  834  less ls-output.txt
+  835  wc ls /bin usr/bin | sort | uniq | less
+  836  ls -l
+  837  less ls-output.txt
+  838  cat ls-output.txt
+  839  clear
+  840  cat ls-output.txt
+  841  cd /usr/bin
+  842  ls
+  843  cd 
+  844  ls
+  845  file ls-output
+  846  file ls-output.txt
+  847  less ls-output.txt
+  848  ls -l /usr/bin &> ls-output.txt
+  849  less ls-output.txt
+  850  wc ls-output.txt
+  851  ls /bin /usr/bin | sort | uniq | wc -l
+  852  head -n 5 ls-output.txt
+  853  tail -7 ls-output.txt
+  854  ls /usr/bin | tail -n 7
+  855  tail -f /var/log/messages
+  856  cd /var
+  857  ls
+  858  cd log
+  859  ls
+  860  file readme
+  861  cd readme
+  862  file README
+  863  less README
+  864  file lastlog
+  865  file tallylog
+  866  file cloud-init-output.log
+  867  tail -f  cloud-init-output.log
+  868  cd
+  869  ls
+  870  ls /usr/bin | tee ls.txt | grep zip
+  871  ls
+  872  less ls.txt
+  873  ls /usr/bin | tee ls.txt | grep zip
+  874  echo display a line of text
+  875  echo this is a test
+  876  echo *
+  877  echo L
+  878  echo l*
+  879  echo L*
+  880  man 1
+  881  man man
+  882  man man.7
+  883  man man.1
+  884  man man.2
+  885  man.2
+  886  man man(3)
+  887  man man.3
+  888  echo *s
+  889  ls
+  890  echo *.
+  891  echo *g.
+  892  echo *
+  893  echo L*
+  894  echo /usr/*?share
+  895  echo /usr/*/share
+  896  echo /L*
+  897  echo (L*)
+  898  echo .*
+  899  ls -d* | less
+  900  echo.[!.]*
+  901  ls -A
+  902  ls -A ls-output.txt
+  903  less ls-output.txt
+  904  less >ls-output.txt
+  905  ls -A > ls-output.txt
+  906  less ls-output.txt
+  907  echo 
+  908  ~echo ~
+  909  echo $((2+2))
+  910  echo $(((5**2) *3))
+  911  echo Five divided by two equals $((5/2))
+  912  echo with $((5%2)) left over
+  913  echo Front-{A,B,C}-Back
+  914  echo Number_{1..7}
+  915  echo {01..15}
+  916  echo {001..015}
+  917  echo {Z..A}
+  918  echo a{A{1,2},B{3,4}}b
+  919  mkdir photos
+  920  cd photos
+  921  mkdir {2017..2022} - {01..12}
+  922  ls
+  923  rm -r {2017..2022} - {01..12}
+  924  ls
+  925  mkdir {2017..2022}-{01..12}
+  926  ls
+  927  cd
+  928  echo $USER
+  929  printenv | less
+  930  HOSTNAME
+  931  echo $SUER
+  932  echo $(ls)
+  933  ls -l $(which cp)
+  934  type cp
+  935  man cp
+  936  ls -l $(which cp)
+  937  file $(ls -d /usr/bin/* | grep zip)
+  938  ls -l two words.txt
+  939  ls -l "two words.txt
+  940  ls -l "two words.txt"
+  941  exit
+  942  ipconfig
+  943  ls -l "two words.txt"
+  944  ls -l 'two words.txt
+  945  two words.txt
+  946  ls -l "two words.txt
+  947  ls -l "two words.txt""
+  948  ls -l two_words.txt
+  949  ls -l > "two words.txt
+  950  ls -l > "two_words.txt""
+  951  ls -l > two_words.txt
+  952  ls
+  953  less tow_words.txt
+  954  less two_words.txt
+  955  echo "$USER $((2+2)) $(cal)
+  956  ëcho this is a       test
+  957  echo me
+  958  echo this is a     test
+  959  echo "this is a      test""
+  960  ëcho this is a       test
+  961  echo "this is a     test
+  962  "this is a    test
+  963  ëcho "$USER $((2+2)) $(cal)
+  964  ëcho "$USER $((2+2)) $(cal)
+  965  ëcho text ~/* {a,b} $(echo foo) $((2+2)) $USER
+  966  man echo
+  967  echo "The balance for user $USER is: \$5.00
+  968  echo "The balance for user $USER is: \$5.00
+  969  ëcho
+  970  sleep10; echo -e "Time's up\a
+  971  sleep10; echo -e "Time's up\a
+  972  "\e\
+  973  sleep10; echo -e "Time's up\a
+  974  sleep10; echo -e "Time's up\a
+  975  "\e\
+  976  history
+  977  clear
+  978  type cp
+  979  ls
+  980  exit
+  981  history
+  982  help type
+  983  type test
+  984  exit
+  985  ls -a
+  986  file session_script
+  987  id
+  988  file /etc/shadow
+  989  less /etc/shadow
+  990  id
+  991  less /etc/passwd
+  992  pwd
+  993  /etc/pwd
+  994  less /etc/passwd
+  995  ls -a /bin
+  996  type bash
+  997  less bash
+  998  less /usr/bin/bash
+  999  cd
+ 1000  ls -a
+ 1001  file etc/group
+ 1002  etc/shadow
+ 1003  history
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ file /etc/shadow
+[?2004l/etc/shadow: regular file, no read permission
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ > foo.txt
+[?2004l]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ ls -l[K l foo.txt
+[?2004lls: cannot access '-': No such file or directory
+ls: cannot access 'l': No such file or directory
+foo.txt
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ ls -l foo.txt
+[?2004l-rw-rw-r--. 1 ruth ruth 0 May 13 17:25 foo.txt
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ chmod[K[K[K[K[K> fll.txt[K[K[K[K[K[Koo.txt
+[?2004l]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ ls -l foot[K.txt
+[?2004l-rw-rw-r--. 1 ruth ruth 0 May 13 18:31 foo.txt
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ chmod 777 foo.txt
+[?2004l]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ chmod 777 foo.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pls -l[C[C[C[C[C[C[C[C
+[?2004l-rwxrwxrwx. 1 ruth ruth 0 May 13 18:31 [0m[01;32mfoo.txt[0m
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ chmod u+x
+[?2004lchmod: missing operand after ‘u+x’
+Try 'chmod --help' for more information.
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ chmod u+xls -l foo.txt
+[?2004l-rwxrwxrwx. 1 ruth ruth 0 May 13 18:31 [0m[01;32mfoo.txt[0m
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ mod chmod
+[?2004lbash: mod: command not found
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ man chmod
+[?2004l[?1049h[22;0;0t[?1h=CHMOD(1)                                                                              User Commands                                                                             CHMOD(1)[m
+[m
+[1mNAME[0m[m
+       chmod - change file mode bits[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mchmod [22m[[4mOPTION[24m]... [4mMODE[24m[[4m,MODE[24m]... [4mFILE[24m...[m
+       [1mchmod [22m[[4mOPTION[24m]... [4mOCTAL-MODE[24m [4mFILE[24m...[m
+       [1mchmod [22m[[4mOPTION[24m]... [4m--reference=RFILE[24m [4mFILE[24m...[m
+[m
+[1mDESCRIPTION[0m[m
+       This  manual  page  documents  the GNU version of [1mchmod[22m.  [1mchmod [22mchanges the file mode bits of each given file according to [4mmode[24m, which can be either a symbolic representation of[m
+       changes to make, or an octal number representing the bit pattern for the new mode bits.[m
+[m
+       The format of a symbolic mode is [[1mugoa[22m...][[[1m-+=[22m][[4mperms[24m...]...], where [4mperms[24m is either zero or more letters from the set [1mrwxXst[22m, or a single letter from the  set  [1mugo[22m.   Multiple[m
+       symbolic modes can be given, separated by commas.[m
+[m
+       A combination of the letters [1mugoa [22mcontrols which users' access to the file will be changed: the user who owns it ([1mu[22m), other users in the file's group ([1mg[22m), other users not in the[m
+       file's group ([1mo[22m), or all users ([1ma[22m).  If none of these are given, the effect is as if ([1ma[22m) were given, but bits that are set in the umask are not affected.[m
+[m
+       The operator [1m+ [22mcauses the selected file mode bits to be added to the existing file mode bits of each file; [1m- [22mcauses them to be removed; and [1m= [22mcauses them to be added and  causes[m
+       unmentioned bits to be removed except that a directory's unmentioned set user and group ID bits are not affected.[m
+[m
+       The  letters [1mrwxXst [22mselect file mode bits for the affected users: read ([1mr[22m), write ([1mw[22m), execute (or search for directories) ([1mx[22m), execute/search only if the file is a directory or[m
+       already has execute permission for some user ([1mX[22m), set user or group ID on execution ([1ms[22m), restricted deletion flag or sticky bit ([1mt[22m).  Instead of one or more  of  these  letters,[m
+       you  can  specify exactly one of the letters [1mugo[22m: the permissions granted to the user who owns the file ([1mu[22m), the permissions granted to other users who are members of the file's[m
+       group ([1mg[22m), and the permissions granted to users that are in neither of the two preceding categories ([1mo[22m).[m
+[m
+       A numeric mode is from one to four octal digits (0-7), derived by adding up the bits with values 4, 2, and 1.  Omitted digits are assumed to be leading zeros.  The  first  digit[m
+       selects  the  set  user  ID (4) and set group ID (2) and restricted deletion or sticky (1) attributes.  The second digit selects permissions for the user who owns the file: read[m
+       (4), write (2), and execute (1); the third selects permissions for other users in the file's group, with the same values; and the fourth for other users not in the file's group,[m
+       with the same values.[m
+[m
+       [1mchmod  [22mnever changes the permissions of symbolic links; the [1mchmod [22msystem call cannot change their permissions.  This is not a problem since the permissions of symbolic links are[m
+       never used.  However, for each symbolic link listed on the command line, [1mchmod [22mchanges the permissions of the pointed-to file.  In contrast, [1mchmod [22mignores symbolic links encoun‐[m
+       tered during recursive directory traversals.[m
+[m
+[1mSETUID AND SETGID BITS[0m[m
+       [1mchmod  [22mclears the set-group-ID bit of a regular file if the file's group ID does not match the user's effective group ID or one of the user's supplementary group IDs, unless the[m
+       user has appropriate privileges.  Additional restrictions may cause the set-user-ID and set-group-ID bits of [4mMODE[24m or [4mRFILE[24m to be ignored.  This behavior depends  on  the  policy[m
+       and functionality of the underlying [1mchmod [22msystem call.  When in doubt, check the underlying system behavior.[m
+[m
+       For  directories  [1mchmod [22mpreserves set-user-ID and set-group-ID bits unless you explicitly specify otherwise.  You can set or clear the bits with symbolic modes like [1mu+s [22mand [1mg-s[22m.[m
+       To clear these bits for directories with a numeric mode requires an additional leading zero, or leading = like [1m00755 [22m, or [1m=755[0m[m
+[m
+[1mRESTRICTED DELETION FLAG OR STICKY BIT[0m[m
+       The restricted deletion flag or sticky bit is a single bit, whose interpretation depends on the file type.  For directories, it prevents unprivileged users from removing or  re‐[m
+       naming  a file in the directory unless they own the file or the directory; this is called the [4mrestricted[24m [4mdeletion[24m [4mflag[24m for the directory, and is commonly found on world-writable[m
+       directories like [1m/tmp[22m.  For regular files on some older systems, the bit saves the program's text image on the swap device so it will load more quickly when run; this is  called[m
+[7m Manual page chmod(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the [4msticky[24m [4mbit[24m.[m
+[7m Manual page chmod(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page chmod(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Change the mode of each FILE to MODE.  With [1m--reference[22m, change the mode of each FILE to that of RFILE.[m
+[7m Manual page chmod(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c[22m, [1m--changes[0m[m
+[7m Manual page chmod(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              like verbose but report only when a change is made[m
+[7m Manual page chmod(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[22m, [1m--silent[22m, [1m--quiet[0m[m
+[7m Manual page chmod(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              suppress most error messages[m
+[7m Manual page chmod(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-v[22m, [1m--verbose[0m[m
+[7m Manual page chmod(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output a diagnostic for every file processed[m
+[7m Manual page chmod(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--no-preserve-root[0m[m
+[7m Manual page chmod(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              do not treat '/' specially (the default)[m
+[7m Manual page chmod(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--preserve-root[0m[m
+[7m Manual page chmod(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              fail to operate recursively on '/'[m
+[7m Manual page chmod(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--reference[22m=[4mRFILE[0m[m
+[7m Manual page chmod(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use RFILE's mode instead of MODE values[m
+[7m Manual page chmod(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-R[22m, [1m--recursive[0m[m
+[7m Manual page chmod(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              change files and directories recursively[m
+[7m Manual page chmod(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help [22mdisplay this help and exit[m
+[7m Manual page chmod(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page chmod(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[7m Manual page chmod(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'.[m
+[7m Manual page chmod(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
+[7m Manual page chmod(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Written by David MacKenzie and Jim Meyering.[m
+[7m Manual page chmod(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mREPORTING BUGS[0m[m
+[7m Manual page chmod(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU coreutils online help: <https://www.gnu.org/software/coreutils/>[m
+[7m Manual page chmod(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Report any translation bugs to <https://translationproject.org/team/>[m
+[7m Manual page chmod(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOPYRIGHT[0m[m
+[7m Manual page chmod(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Copyright © 2020 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.[m
+[7m Manual page chmod(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law.[m
+[7m Manual page chmod(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE ALSO[0m[m
+[7m Manual page chmod(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       chmod(2)[m
+[7m Manual page chmod(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Full documentation <https://www.gnu.org/software/coreutils/chmod>[m
+[7m Manual page chmod(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or available locally via: info '(coreutils) chmod invocation'[m
+[7m Manual page chmod(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chmod(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KGNU coreutils 8.32                                                                      July 2021                                                                               CHMOD(1)[m
+[7m Manual page chmod(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page chmod(1) line 52/100 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page chmod(1) line 52/100 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page chmod(1) line 52/100 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page chmod(1) line 52/100 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page chmod(1) line 52/100 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page chmod(1) line 52/100 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[50;1H[K[7m Manual page chmod(1) line 51/100 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       the [4msticky[24m [4mbit[24m.[m
+[50;1H[K[7m Manual page chmod(1) line 50/100 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       directories like [1m/tmp[22m.  For regular files on some older systems, the bit saves the program's text image on the swap device so it will load more quickly when run; this is  called[m
+[50;1H[K[7m Manual page chmod(1) line 49/100 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       naming  a file in the directory unless they own the file or the directory; this is called the [4mrestricted[24m [4mdeletion[24m [4mflag[24m for the directory, and is commonly found on world-writable[m
+[50;1H[K[7m Manual page chmod(1) line 48/100 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The restricted deletion flag or sticky bit is a single bit, whose interpretation depends on the file type.  For directories, it prevents unprivileged users from removing or  re‐[m
+[50;1H[K[7m Manual page chmod(1) line 47/100 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mRESTRICTED DELETION FLAG OR STICKY BIT[0m[m
+[50;1H[K[7m Manual page chmod(1) line 46/100 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[50;1H[K[7m Manual page chmod(1) line 45/100 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       To clear these bits for directories with a numeric mode requires an additional leading zero, or leading = like [1m00755 [22m, or [1m=755[0m[m
+[50;1H[K[7m Manual page chmod(1) line 44/100 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       For  directories  [1mchmod [22mpreserves set-user-ID and set-group-ID bits unless you explicitly specify otherwise.  You can set or clear the bits with symbolic modes like [1mu+s [22mand [1mg-s[22m.[m
+[50;1H[K[7m Manual page chmod(1) line 43/100 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[50;1H[K[7m Manual page chmod(1) line 42/100 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       and functionality of the underlying [1mchmod [22msystem call.  When in doubt, check the underlying system behavior.[m
+[50;1H[K[7m Manual page chmod(1) line 41/100 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       user has appropriate privileges.  Additional restrictions may cause the set-user-ID and set-group-ID bits of [4mMODE[24m or [4mRFILE[24m to be ignored.  This behavior depends  on  the  policy[m
+[50;1H[K[7m Manual page chmod(1) line 40/100 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mchmod  [22mclears the set-group-ID bit of a regular file if the file's group ID does not match the user's effective group ID or one of the user's supplementary group IDs, unless the[m
+[50;1H[K[7m Manual page chmod(1) line 39/100 90% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSETUID AND SETGID BITS[0m[m
+[50;1H[K[7m Manual page chmod(1) line 38/100 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[50;1H[K[7m Manual page chmod(1) line 37/100 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       tered during recursive directory traversals.[m
+[50;1H[K[7m Manual page chmod(1) line 36/100 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       never used.  However, for each symbolic link listed on the command line, [1mchmod [22mchanges the permissions of the pointed-to file.  In contrast, [1mchmod [22mignores symbolic links encoun‐[m
+[50;1H[K[7m Manual page chmod(1) line 35/100 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mchmod  [22mnever changes the permissions of symbolic links; the [1mchmod [22msystem call cannot change their permissions.  This is not a problem since the permissions of symbolic links are[m
+[50;1H[K[7m Manual page chmod(1) line 34/100 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[50;1H[K[7m Manual page chmod(1) line 33/100 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       with the same values.[m
+[50;1H[K[7m Manual page chmod(1) line 32/100 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       (4), write (2), and execute (1); the third selects permissions for other users in the file's group, with the same values; and the fourth for other users not in the file's group,[m
+[50;1H[K[7m Manual page chmod(1) line 31/100 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       selects  the  set  user  ID (4) and set group ID (2) and restricted deletion or sticky (1) attributes.  The second digit selects permissions for the user who owns the file: read[m
+[50;1H[K[7m Manual page chmod(1) line 30/100 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       A numeric mode is from one to four octal digits (0-7), derived by adding up the bits with values 4, 2, and 1.  Omitted digits are assumed to be leading zeros.  The  first  digit[m
+[50;1H[K[7m Manual page chmod(1) line 29/100 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[50;1H[K[7m Manual page chmod(1) line 28/100 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       group ([1mg[22m), and the permissions granted to users that are in neither of the two preceding categories ([1mo[22m).[m
+[50;1H[K[7m Manual page chmod(1) line 27/100 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       you  can  specify exactly one of the letters [1mugo[22m: the permissions granted to the user who owns the file ([1mu[22m), the permissions granted to other users who are members of the file's[m
+[50;1H[K[7m Manual page chmod(1) line 26/100 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       already has execute permission for some user ([1mX[22m), set user or group ID on execution ([1ms[22m), restricted deletion flag or sticky bit ([1mt[22m).  Instead of one or more  of  these  letters,[m
+[50;1H[K[7m Manual page chmod(1) line 25/100 84% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The  letters [1mrwxXst [22mselect file mode bits for the affected users: read ([1mr[22m), write ([1mw[22m), execute (or search for directories) ([1mx[22m), execute/search only if the file is a directory or[m
+[50;1H[K[7m Manual page chmod(1) line 24/100 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[50;1H[K[7m Manual page chmod(1) line 23/100 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       unmentioned bits to be removed except that a directory's unmentioned set user and group ID bits are not affected.[m
+[50;1H[K[7m Manual page chmod(1) line 22/100 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The operator [1m+ [22mcauses the selected file mode bits to be added to the existing file mode bits of each file; [1m- [22mcauses them to be removed; and [1m= [22mcauses them to be added and  causes[m
+[50;1H[K[7m Manual page chmod(1) line 21/100 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[50;1H[K[7m Manual page chmod(1) line 20/100 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       file's group ([1mo[22m), or all users ([1ma[22m).  If none of these are given, the effect is as if ([1ma[22m) were given, but bits that are set in the umask are not affected.[m
+[50;1H[K[7m Manual page chmod(1) line 19/100 81% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       A combination of the letters [1mugoa [22mcontrols which users' access to the file will be changed: the user who owns it ([1mu[22m), other users in the file's group ([1mg[22m), other users not in the[m
+[50;1H[K[7m Manual page chmod(1) line 18/100 81% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[50;1H[K[7m Manual page chmod(1) line 17/100 81% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       symbolic modes can be given, separated by commas.[m
+[50;1H[K[7m Manual page chmod(1) line 16/100 80% (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ chmod u-x foo.txt
+[?2004l]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ chmod u-x foo.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pman chmodod[C[C[C[C[C[Cls -l foo.txt
+[?2004l-rw-rwxrwx. 1 ruth ruth 0 May 13 18:31 [0m[01;32mfoo.txt[0m
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ chmod 600 foo.txt
+[?2004l]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ chmod 600 foo.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pls -l[C[C[C[C[C[C[C[C
+[?2004l-rw-------. 1 ruth ruth 0 May 13 18:31 foo.txt
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ rm -f foo.txt
+[?2004l]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ rm -f foo.txtls -l[C[C[C[C[C[C[C[C
+[?2004lls: cannot access 'foo.txt': No such file or directory
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ umask
+[?2004l0002
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ > foo.txt
+[?2004l]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ ls -l foo.txt
+[?2004l-rw-rw-r--. 1 ruth ruth 0 May 13 18:36 foo.txt
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ rm foo.txt
+[?2004l]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ umask 0000
+[?2004l]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ >foo,txt[K[K[K[K.txt
+[?2004l]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ >foo.txtumask 0000rm foo.txt[3@ls -l[C[C[C[C[C[C[C[C
+[?2004l-rw-rw-rw-. 1 ruth ruth 0 May 13 18:37 foo.txt
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ chmod 777 foo.txt
+[?2004l]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ chmod 777 foo.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pls -l[C[C[C[C[C[C[C[C
+[?2004l-rwxrwxrwx. 1 ruth ruth 0 May 13 18:37 [0m[01;32mfoo.txt[0m
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ umask 0777
+[?2004l]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ rm foo.txt
+[?2004l]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ rm foo.txtumask 0777ls -l foo.txt[4@chmod 777[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pls -l[C[C[C[C[C[C[C[C[5P>foo.txt
+[?2004l]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ >foo.txtrm foo.txtumask 0777ls -l foo.txt
+[?2004l----------. 1 ruth ruth 0 May 13 18:41 foo.txt
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ rm foo.txt
+[?2004lrm: remove write-protected regular empty file 'foo.txt'? y
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ rm foo.txt[3@ls -l[C[C[C[C[C[C[C[C[5P>foo.txtrm foo.txtumask 0777ls -l foo.txt[K[K[K[K[K[K[K[K
+[?2004ltotal 92
+-rw-r--r--. 1 ruth ruth    46 May 10 00:54 lazy_dog.txt
+-rw-r--r--. 1 ruth ruth    56 May 10 00:11 ls-error.txt
+-rw-r--r--. 1 ruth ruth   329 May 13 17:01 ls-output.txt
+-rw-r--r--. 1 ruth ruth  5601 May 10 20:37 ls.txt
+drwxr-xr-x. 1 ruth ruth  1008 May 10 21:06 [0m[01;34mphotos[0m
+-rw-r--r--. 1 ruth ruth 69632 May 13 18:34 session_script
+-rw-r--r--. 1 ruth ruth   329 May 11 02:07 two_words.txt
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ umask 0002
+[?2004l]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ umask 0002[5Pls -lrm foo.txt[3@ls -l[C[C[C[C[C[C[C[C[5P>foo.txt
+[?2004l]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ >foo.txtumask 0002[5Pls -lrm foo.txt[3@ls -l[C[C[C[C[C[C[C[C
+[?2004l-rw-rw-r--. 1 ruth ruth 0 May 13 18:43 foo.txt
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ rm foo.txt; umask 0002
+[?2004l]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ u[Ksudo -l
+[?2004l
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+[sudo] password for ruth: 
+Sorry, user ruth may not run sudo on ruth.
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ passwr[Kd[K[K[K[K[K[Kpassrd[K[Kwd
+[?2004lChanging password for user ruth.
+Current password: 
+New password: 
+BAD PASSWORD: The password is shorter than 8 characters
+New password: 
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ ps
+[?2004l    PID TTY          TIME CMD
+  55129 pts/1    00:00:00 bash
+  55384 pts/1    00:00:00 ps
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ os [K[K[Kps x
+[?2004l    PID TTY      STAT   TIME COMMAND
+  55043 ?        Ss     0:00 /usr/lib/systemd/systemd --user
+  55046 ?        S      0:00 (sd-pam)
+  55053 ?        R      0:00 sshd: ruth@pts/0
+  55054 pts/0    Ss     0:00 -bash
+  55127 pts/0    S+     0:00 script session_script
+  55129 pts/1    Ss     0:00 bash -i
+  55386 pts/1    R+     0:00 ps x
+]0;ruth@ruth:~[?2004h[ruth@ruth ~]$ exit
+[?2004lexit
+
+Script done on 2022-05-13 19:24:34+00:00 [COMMAND_EXIT_CODE="0"]
