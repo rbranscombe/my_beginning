@@ -45,9 +45,9 @@ include/
 # Temporary build directories
 /tmp/
 
-# Specific project directories (add if not part of your source code)
-#
-#
+# Pytest cache inside bjack folder for example - but any other as well
+# .coverage
+# __pycache__/
 
 # Log files
 *.log
